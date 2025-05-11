@@ -1,6 +1,5 @@
 //import { useState } from 'react'
 import './App.css'
-import './index.css'
 import Formulario from './modules/Formulario.jsx'
 import Citas from './modules/Cita.jsx'
 
@@ -18,9 +17,9 @@ function App() {
           </div>
           <div className="one-half column">
             <h2>Administra tus citas</h2>
-            <Citas Nombre="Nina" Duenio='Lola' Fecha= '2020-04-05' Hora='06:26' Sintomas= 'Se rompio una pata'/>
-            <Citas Nombre="Tobi" Duenio='Nahi' Fecha= '2003-02-05' Hora='23:34' Sintomas= 'Le duele la panza'/>
-            <Citas Nombre="Cucki" Duenio='Aaron' Fecha= '2007-08-05' Hora='16:15' Sintomas= 'Vomitos'/>
+            <Citas Nombre="Cacho" Dueño='Tomi' Fecha= '2022-11-12' Hora='16:26' Sintomas= 'Se lastimo una pata'/>
+            <Citas Nombre="Scooby" Dueño='Facu' Fecha= '2004-02-02' Hora='03:43' Sintomas= 'Le duele el estomago'/>
+            <Citas Nombre="Cucki" Dueño='Feli' Fecha= '2012-04-15' Hora='07:35' Sintomas= 'Vomitos'/>
 
           </div>
         </div>

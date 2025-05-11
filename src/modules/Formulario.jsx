@@ -9,9 +9,9 @@ function crearForm()
         <label>Nombre Dueño</label>
         <input type="text" name="propietario" className="u-full-width" placeholder="Nombre dueño de la mascota"/>
         <label>Fecha</label>
-        <input type="date" name="fecha" className="u-full-width" />
+        <input type="date" name="fecha" className="u-full-width" placeholder='Fecha'/>
         <label>hora</label>
-        <input type="time" name="hora" className="u-full-width" />
+        <input type="time" name="hora" className="u-full-width" placeholder='Hora'/>
         <label>Sintomas</label>
         <textarea name="sintomas" className="u-full-width"></textarea>
         <button type="submit" className="u-full-width button-primary">Agregar Cita</button>

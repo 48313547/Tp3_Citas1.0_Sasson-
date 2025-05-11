@@ -4,14 +4,14 @@ const CrearCita = (props) => {
   return (
     <div className="cita">
       <p>{props.id}</p>
-      <p>Nombre:  {props.Nombre}</p>
-      <p>Dueño: {props.Duenio}</p>
-      <p>Fecha: {props.Fecha}</p>
-      <p>Hora: {props.Hora}</p>
-      <p>Sintomas: {props.Sintomas}</p>
+      <p>Mascota: <span>{props.Nombre}</span>  </p>
+      <p>Dueño:<span> {props.Dueño}</span></p>
+      <p>Fecha: <span>{props.Fecha}</span></p>
+      <p>Hora: <span>{props.Hora}</span></p>
+      <p>Sintomas: <span>{props.Sintomas}</span></p>
       
-      <button>
-        Eliminar ×
+      <button className='button eliminar'>
+        Eliminar X
       </button>
     </div>
   );
